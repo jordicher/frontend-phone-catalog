@@ -222,7 +222,8 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                 </div>
                             </div>
 
-                            <hr className="mt-6 border-b-1 border-gray-400" />
+                            {dataToEdit ? null :<>
+                            <hr className="mt-6 border-b-1 border-gray-400" />                            
 
                             <h6 className="text-gray-500 text-sm mt-3 mb-6 font-bold uppercase">
                                 Image 
@@ -249,11 +250,11 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                           </label>
                                          : null
                                         }
-
-                                       
                                     </div>
                                 </div>
                             </div>
+                            </>
+                                    }
                             <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" type="submit">Send</button>
                         </form>
                     </div>

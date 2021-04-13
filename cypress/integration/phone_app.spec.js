@@ -26,12 +26,16 @@ const notValidPhone = {
 
 describe('Phone App', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000')
     cy.request('POST', 'http://localhost:4002/phone/testing/reset')
+    cy.visit('http://localhost:3000')
   })
 
   it('frontpage can be opened', () => {
     cy.contains('PHONES')
+  })
+
+  it('Message not data', () => {
+    cy.contains('oops! No data')
   })
 })
 
@@ -44,8 +48,7 @@ describe('Create phone', () => {
   it('valid phone can be created with not a img', () => {
     cy.addValueInput(validPhone)
     cy.get('form').submit()
-    cy.contains(validPhone.name)
-    /* cy.get('#uploaded-files').contains('evening.png') */
+    cy.contains(validPhone.name)  
   })
 
   it('valid phone can be created with a img', () => {
