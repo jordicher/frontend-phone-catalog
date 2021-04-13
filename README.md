@@ -2,7 +2,7 @@
 ## Proyecto
 Aplicación React, CRUD.
 
-Frontend [Ver online](https://db-phone-catalog.herokuapp.com/phones)
+Frontend [Ver online](https://phonecher.netlify.app/)
 
 Backend [Ver online](https://db-phone-catalog.herokuapp.com/phones)
 
@@ -40,7 +40,7 @@ También verá errores de lint en la consola.
 ## Projecte
 Aplicació React, CRUD.
 
-Frontend [Veure en línia](https://db-phone-catalog.herokuapp.com/phones)
+Frontend [Veure en línia](https://phonecher.netlify.app/)
 
 Backend [Veure en línia](https://db-phone-catalog.herokuapp.com/phones)
 
@@ -76,7 +76,7 @@ També veureu els errors a la consola.
 
 React application, CRUD.
 
-Frontend [View online](https://db-phone-catalog.herokuapp.com/phones)
+Frontend [View online](https://phonecher.netlify.app/)
 
 Backend [View online](https://db-phone-catalog.herokuapp.com/phones)
 
