@@ -41,7 +41,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                 <div className="w-full lg:w-6/12 px-4">
                                     <div className="relative w-full mb-3">
                                         <label className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="name"
                                         >
                                             Name
 
@@ -62,7 +62,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                     <div className="relative w-full mb-3">
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="manufacturer"
                                         >
                                             Manufacturer
 
@@ -84,7 +84,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                     <div className="relative w-full mb-3">
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="price"
                                         >
                                             Price
                  
@@ -104,7 +104,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                     <div className="relative w-full mb-3">
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="ram"
                                         >
                                             RAM
                  
@@ -128,7 +128,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                     <div className="relative w-full mb-3">
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="color"
                                         >
                                             Color
                  
@@ -150,7 +150,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                     <div className="relative w-full mb-3">
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="screen"
                                         >
                                             Screen
                  
@@ -172,7 +172,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                     <div className="relative w-full mb-3">
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="processor"
                                         >
                                             Processor
               
@@ -202,7 +202,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                     <div className="relative w-full mb-3">
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="description"
                                         >                                            
                                    
                                         <textarea
@@ -238,7 +238,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit}) => {
                                         {requiredFile ? 
                                         <label
                                             className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                                            htmlFor="grid-password"
+                                            htmlFor="fileImgPhone"
                                         >         
                                                                     
                                         <input
